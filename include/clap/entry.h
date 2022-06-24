@@ -1,6 +1,6 @@
 #pragma once
 
-#include "version.h"
+#include "clap_version.h"
 #include "private/macros.h"
 
 #ifdef __cplusplus
