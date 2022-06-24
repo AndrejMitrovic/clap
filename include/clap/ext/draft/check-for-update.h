@@ -9,7 +9,7 @@ extern "C" {
 #endif
 
 typedef struct clap_check_for_update_info {
-   const char *version;      // latest version
+   const char *_version;      // latest version
    const char *release_date; // YYYY-MM-DD
    const char *url;          // url to a download page which the user can visit
 

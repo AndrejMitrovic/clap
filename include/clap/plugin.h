@@ -20,7 +20,7 @@ typedef struct clap_plugin_descriptor {
    const char *url;         // eg: "https://u-he.com/products/diva/"
    const char *manual_url;  // eg: "https://dl.u-he.com/manuals/plugins/diva/Diva-user-guide.pdf"
    const char *support_url; // eg: "https://u-he.com/support/"
-   const char *version;     // eg: "1.4.4"
+   const char *_version;    // eg: "1.4.4"
    const char *description; // eg: "The spirit of analogue"
 
    // Arbitrary list of keywords.
