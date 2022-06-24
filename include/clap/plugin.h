@@ -38,7 +38,7 @@ typedef struct clap_plugin {
    // Must be called after creating the plugin.
    // If init returns false, the host must destroy the plugin instance.
    // [main-thread]
-   bool (*init)(const struct clap_plugin *plugin);
+   bool (*initialize)(const struct clap_plugin *plugin);
 
    // Free the plugin and its resources.
    // It is required to deactivate the plugin prior to this call.

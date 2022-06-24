@@ -48,7 +48,7 @@ typedef struct clap_plugin_entry {
    //
    // If init() returns false, then the host must not call deinit() nor any other clap
    // related symbols from the DSO.
-   bool (*init)(const char *plugin_path);
+   bool (*initialize)(const char *plugin_path);
 
    // No more calls into the DSO must be made after calling deinit().
    void (*deinit)(void);
